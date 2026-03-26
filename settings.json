@@ -1,62 +1,53 @@
 {
-  "bot-account": {
-    "username": "bot",
-    "password": "your_password",
-    "type": "microsoft"
-  },
-
-  "server": {
-    "ip": "localhost",
-    "port": 25565,
-    "version": "1.19.3"
-  },
-
-  "position": {
-    "enabled": false,
-    "x": 0,
-    "y": 0,
-    "z": 0
-  },
-
-  "utils": {
-    "auto-auth": {
-      "enabled": false,
-      "password": "12345678"
+    "bot-account": {
+      "username": "NuttellaHUB",
+      "password": "",
+      "type": "offline"
     },
 
-    "anti-afk": {
-      "enabled": false,
-      "sneak": false,
-      "jump": false,
-      "rotate": false,
+    "server": {
+      "ip": "NuttellaHUB.aternos.me",
+      "port": 26581,
+      "version": "1.17.1"
+    },
 
-      "hit": {
-        "enabled": false,
-        "delay": 1000,
-        "attack-mobs": false
+    "position": {
+      "enabled": false,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+
+    "utils": {
+      "auto-auth": {
+        "enabled": true,
+        "password": "yassinehzz$is$the$best"
       },
 
-      "circle-walk": {
-        "enabled": false,
-        "radius": 2
-      }
-    },
+      "anti-afk": {
+        "enabled": true,
+        "sneak": false
+      },
 
-    "chat-messages": {
-      "enabled": false,
-      "repeat": true,
-      "repeat-delay": 60,
+      "chat-messages": {
+        "enabled": true,
+        "repeat": true,
+        "repeat-delay": 60,
 
-      "messages": [
-        "I'm a regular player ",
-        "My owner is urFate_ ",
-        "I want be alone ",
-        "Visit my GitHub page! (urFate/Afk-Bot)"
-      ]
-    },
+        "messages": [
+          "NuttellaTeam",
+          "~NuttellaTeam~",
+          "NuttellaTeam",
+          "NuttellaTeam",
+          "{NuttellaTeam}",
+          "NuttellaTeam",
+          "NuttellaTeamm"
+        ]
+      },
 
-    "chat-log": true,
-    "auto-reconnect": false,
-    "auto-reconnect-delay": 5000
+      "chat-log": false,
+      "auto-reconnect": true,
+      "auto-reconnect-delay": 10000
+    }
   }
-}
+  
